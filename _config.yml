@@ -1,15 +1,1 @@
-# Jekyll configuration for Mathis Fleury's academic website
-title: "Mathis Fleury"
-description: "Researcher in computational neuroscience and machine learning"
-url: "https://MathisFleury.github.io"
-baseurl: ""
-
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-# Theme settings (academicpages uses Minimal Mistakes theme)
-theme: jekyll-theme-minimal-mistakes
+# Static site - no Jekyll processing needed
