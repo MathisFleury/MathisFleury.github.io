@@ -203,3 +203,48 @@ strong, b, h1, h2, h3, h4, h5, h6,
     background: white !important;
     color: #333 !important;
 }
+/* ---- Publications list + featured preprint ---- */
+
+.publications-section { margin-bottom: 2.5em; }
+.publications-section__title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+.publication-item { margin-bottom: 1.6em; }
+.publication-item__title { margin: 0 0 0.25em; font-size: 1em; line-height: 1.35; }
+.publication-item__authors { font-size: 0.88em; line-height: 1.5; }
+.publication-item__journal { font-size: 0.85em; color: #666; margin-top: 0.15em; }
+.publication-item__links { margin-top: 0.35em; }
+.publication-link {
+    display: inline-block;
+    font-size: 0.72em;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.1em 0.5em;
+    margin-right: 0.35em;
+    border: 1px solid #8A6BB1;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.publication-link:hover { background: #8A6BB1; color: #fff; }
+
+.featured-preprint {
+    border-left: 3px solid #8A6BB1;
+    background: #f5f5f5;
+    padding: 1em 1.25em;
+    margin-bottom: 2.5em;
+    border-radius: 0 4px 4px 0;
+}
+.featured-preprint__label {
+    margin: 0 0 0.3em;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #8A6BB1;
+    font-weight: bold !important;
+}
+.featured-preprint__title { margin: 0 0 0.4em; font-size: 1.1em; line-height: 1.35; }
+.featured-preprint__meta { font-size: 0.85em; color: #666; margin: 0 0 0.6em; }
+.featured-preprint__blurb { font-size: 0.9em; line-height: 1.55; margin: 0 0 0.8em; }
+.featured-preprint__doi { font-size: 0.78em; color: #666; margin-left: 0.6em; }
