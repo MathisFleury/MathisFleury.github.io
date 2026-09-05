@@ -9,3 +9,4 @@ Gemfile.lock
 package-lock.json
 *.gem
 .DS_Store
+compact_index/
