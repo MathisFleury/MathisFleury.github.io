@@ -248,3 +248,10 @@ strong, b, h1, h2, h3, h4, h5, h6,
 .featured-preprint__meta { font-size: 0.85em; color: #666; margin: 0 0 0.6em; }
 .featured-preprint__blurb { font-size: 0.9em; line-height: 1.55; margin: 0 0 0.8em; }
 .featured-preprint__doi { font-size: 0.78em; color: #666; margin-left: 0.6em; }
+
+/* A bare `a` is set to weight 200 above, which beat .publication-item__title and
+   left linked titles light while unlinked ones stayed bold. Match them all. */
+.publication-item__title,
+.publication-item__title a,
+.featured-preprint__title,
+.featured-preprint__title a { font-weight: bold !important; }
