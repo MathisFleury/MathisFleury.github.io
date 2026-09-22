@@ -45,7 +45,7 @@
   <meta content="on" http-equiv="cleartype"/>
   <!-- start custom head snippets -->
   <!-- Brave Browser Compatibility -->
-  <meta content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:;" http-equiv="Content-Security-Policy"/>
+  <meta content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://gc.zgo.at https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:;" http-equiv="Content-Security-Policy"/>
   <meta content="no-referrer-when-downgrade" name="referrer"/>
   <meta content="#ffffff" name="theme-color"/>
   <link href="/images/site-logo-mf.png" rel="icon"/>
@@ -59,6 +59,9 @@
    (function() { var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true; script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'; // Fallback if external CDN is blocked script.onerror = function() { console.log('MathJax CDN blocked - mathematical expressions may not render'); }; // Only load if not blocked by privacy browser if (navigator.userAgent.indexOf('Brave') === -1 || confirm('This site uses MathJax for mathematical expressions. Allow external resource?')) { document.getElementsByTagName('head')[0].appendChild(script); } })();
   </script>
   <!-- end custom head snippets -->
+  <!-- GoatCounter analytics (privacy-friendly, public dashboard at /stats/) -->
+  <script async="" data-goatcounter="https://mathisfleury.goatcounter.com/count" src="//gc.zgo.at/count.js">
+  </script>
   <link href="/assets/css/custom-overrides.css" rel="stylesheet"/>
  </head>
  <body>
@@ -127,6 +130,11 @@
        <li class="masthead__menu-item">
         <a href="/photography/">
          Photography
+        </a>
+       </li>
+       <li class="masthead__menu-item">
+        <a href="/stats/">
+         Stats
         </a>
        </li>
       </ul>
